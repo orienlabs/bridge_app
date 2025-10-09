@@ -42,6 +42,7 @@ Bridge is an innovative and free app that seamlessly connects your Wear OS watch
 - **Analytics**: Analytics to improve the app experience
 - **Service Mode**: Background service for continuous connectivity
 - **Find Device**: Both watch and iOS app's can ring each other to support finding devices
+- **Internet Sharing**: When watch is not connected to WiFi, it can access internet through connected iPhone device (requires advanced setup)
 
 ## 📋 Requirements
 
