@@ -2,6 +2,13 @@
 
 This guide explains how to grant the necessary system permissions to enable proxy functionality in the Bridge Wear OS app.
 
+## !Disclaimer!
+This is an ***experimental*** feature and may not always work, or may work only for few applications. If you are running into issues, please report to developers at contact information given at the end of this page.
+
+## Apps that are known to ***not*** work
+This feature works using proxy setting on the device, and hence only apps that respects the proxy setting on the device will work. We'll update list here when apps are identified to be not working.
+* WhatsApp
+
 ## TL;DR - Quick Permission Grant
 
 To enable internet sharing, grant the app this permission via ADB:
@@ -114,7 +121,7 @@ android.permission.WRITE_SECURE_SETTINGS: granted=true
 
 ### 6. Restart the App
 
-1. Force close the Bridge app on your Android Watch
+1. Force close the Bridge app on your Android Watch (Setting > Advanced > Restart App)
 2. Reopen the Bridge app
 3. Go to **Advanced** >> **Internet Sharing** settings
 4. You should now see control options available
@@ -191,7 +198,7 @@ If `adb` command is not recognized:
 
 ## Support
 
-Please reach out to developers at bridge@olabs.app or on Reddit > r/orienlabs
+Please reach out to developers at **bridge@olabs.app** or on Reddit > [r/orienlabs](https://www.reddit.com/r/orienlabs/)
 
 ## Summary
 
