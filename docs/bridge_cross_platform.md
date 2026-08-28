@@ -1,12 +1,22 @@
 # Bridge: User Installation & Platform Guide
 
+## TL;DR
+
+Bridge is a complete code rewrite and is currently in beta testing. Some features may not yet be available or may be buggy. If you encounter an issue, please use the in-app feedback option to contact the developer. An in-app data migration option is available on a best-effort basis; migration may be incomplete or unavailable for some legacy data.
+
+**Install quickly:**
+
+* **iPhone:** Install [Bridge through TestFlight](https://testflight.apple.com/join/cNQxMjAu).
+* **Wear OS watch:** Download the latest watch APK from the [GitHub Releases page](https://github.com/orienlabs/bridge_app/releases), then install it using ADB or transfer it to the watch with the [File Browser app](https://play.google.com/store/apps/details?id=com.orienlabs.filebrowser.wear) and open the APK there.
+* **Apple Watch:** Install the watch app through TestFlight after installing Bridge on your iPhone.
+
 > [!IMPORTANT]
 > **Important Notice: Bridge Rebuilt from Scratch**
 > 
 > We are completely rebuilding the Bridge application from the ground up to deliver a true, cross-platform experience across both Apple and Android ecosystems. As part of this major transition, please note:
 > 
 > * **Broader Device Support:** We have lowered the minimum required operating system versions so that Bridge can support older phone and watch models.
-> * **No Data Migration:** This is a fresh replacement of previous legacy apps. No data, connection profiles, or settings will be migrated.
+> * **Best-Effort Data Migration:** An in-app migration option is available for data from previous legacy apps, but migration may be incomplete or unavailable for some data.
 > * **Coordinated Upgrades Required:** Due to a new custom communication protocol, **both your phone and watch apps must be upgraded to the new version to pair and sync**. New versions of the app cannot pair with older legacy versions.
 
 ## 1. What is Bridge & Why Does It Exist?
@@ -54,18 +64,18 @@ Fill in your:
 Once we add your accounts, we will reply with your official download links for TestFlight and Google Play.
 
 ### Step 2: Alternative APK Installation (Android Only)
-If you prefer not to wait for Google Play Console provisioning, Android and Wear OS users can download the raw app packages (APKs) directly from our [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/tag/v2026.07.09) and install them manually.
+If you prefer not to wait for Google Play Console provisioning, Android and Wear OS users can download the raw app packages (APKs) directly from our [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/) and install them manually.
 
 ---
 
 ## 3. Installation Guide for Apple Devices (iPhone & Apple Watch)
 
-Once your Apple ID has been added to our tester list and you receive your invitation email:
+Once your Apple ID has been added to our tester list, install TestFlight and open the [Bridge TestFlight invitation link](https://testflight.apple.com/join/cNQxMjAu) on your iPhone:
 
 ### A. Installing on your iPhone
-1. Open the TestFlight invitation email on your iPhone.
-2. Tap **View in TestFlight** or use the link provided.
-3. Install the **TestFlight** app from the App Store if you don't have it.
+1. Install the **TestFlight** app from the App Store if you don't have it.
+2. Open the [Bridge TestFlight invitation link](https://testflight.apple.com/join/cNQxMjAu).
+3. Tap **View in TestFlight** if prompted.
 4. Accept the invitation for **Bridge** in the TestFlight app and tap **Install**.
 
 ### B. Installing on a Standard Apple Watch (Paired to your iPhone)
@@ -89,16 +99,15 @@ Once your Google Play Email has been added to our tester list and you receive yo
 1. Open the testing invitation link sent to your Google Play email.
 2. Tap **Join on Web** or **Join on Android** to opt into the internal testing program.
 3. Use the link provided to download **Bridge** from the Google Play Store.
-4. *(Alternative)* Download the phone APK directly from the [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/tag/v2026.07.09) and open it on your phone to install (requires enabling "Install unknown apps" permission).
+4. *(Alternative)* Download the phone APK directly from the [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/) and open it on your phone to install (requires enabling "Install unknown apps" permission).
 
 ### B. Installing on your Wear OS Smartwatch
-1. **Google Play Store Method:**
-   * Ensure you have opted into the test track using the link from Step A.
-   * Open the **Play Store app directly on your smartwatch**.
-   * Scroll down and tap **Apps on your phone**. Find **Bridge** and tap **Install**.
-2. **Direct APK Sideload Method:**
-   * Download the Wear OS APK from the [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/tag/v2026.07.09).
-   * Install it using a Wear OS sideloading tool (such as ADB commands or wireless debugging apps).
+1. **Direct APK Installation via ADB:**
+   * Download the Wear OS APK from the [latest GitHub Release](https://github.com/orienlabs/bridge_app/releases).
+   * Transfer the APK to the watch and install it using ADB. See the [ADB installation guide](guides/install-via-adb.md).
+2. **Alternative File-Browser Installation:**
+   * Transfer the APK to the watch with the [File Browser app](https://play.google.com/store/apps/details?id=com.orienlabs.filebrowser.wear).
+   * Open the APK on the watch and follow the installation prompts, if the file-browser app supports APK installation.
 
 ---
 
