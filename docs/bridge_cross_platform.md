@@ -7,8 +7,7 @@ Bridge is a complete code rewrite and is currently in beta testing. Some feature
 **Install quickly:**
 
 * **iPhone:** Install [Bridge through TestFlight](https://testflight.apple.com/join/cNQxMjAu).
-* **Wear OS watch:** [Download the latest watch APK](https://olabs.app/assets/release/bridge-x_wearos.apk), then install it using ADB or transfer it to the watch with the [File Browser app](https://play.google.com/store/apps/details?id=com.orienlabs.filebrowser.wear) and open the APK there. See the [release page](https://github.com/orienlabs/bridge_app/releases) to learn more.
-* **Apple Watch:** Install the watch app through TestFlight after installing Bridge on your iPhone.
+* **Wear OS watch:** Join the [bridge-x-testers Google Group](https://groups.google.com/g/bridge-x-testers) to install via [Google Play testing](https://play.google.com/apps/testing/com.orienlabs.bridge.wear), or [download the latest watch APK](https://olabs.app/assets/release/bridge-x_wearos.apk) (see [release page](https://github.com/orienlabs/bridge_app/releases)).
 
 > [!IMPORTANT]
 > **Important Notice: Bridge Rebuilt from Scratch**
@@ -53,6 +52,10 @@ Below are the minimum software requirements and specific platform considerations
 ## 2. Requesting Early Access (Beta Testing)
 
 Bridge is currently in **private internal testing**. To download and install the applications, your account IDs must first be added to our authorized tester lists.
+
+> [!TIP]
+> **Instant Wear OS Watch Access via Google Group:**
+> You can access the testing version of the Wear OS app directly without waiting for manual email provisioning. Simply join the [bridge-x-testers Google Group](https://groups.google.com/g/bridge-x-testers). Once you have joined, you can opt in and install the app directly from [Google Play](https://play.google.com/apps/testing/com.orienlabs.bridge.wear).
 
 ### Step 1: Submit Your Tester IDs
 Click here to [Request Early Access](mailto:bridge@olabs.app?subject=Request%20for%20Bridge%20Early%20Access&body=Hello,%0A%0AI%20would%20like%20to%20request%20early%20access%20to%20the%20Bridge%20beta.%20Here%20are%20my%20details:%0A%0A-%20Apple%20ID%20(for%20TestFlight/iOS):%20%0A-%20Google%20Play%20Email%20(for%20Android/Wear%20OS):%20%0A%0AThanks!). This will open a draft email in your default mail client with `bridge@olabs.app` pre-filled.
@@ -102,12 +105,19 @@ Once your Google Play Email has been added to our tester list and you receive yo
 4. *(Alternative)* Download the phone APK directly from the [GitHub Release Page](https://github.com/orienlabs/bridge_app/releases/) and open it on your phone to install (requires enabling "Install unknown apps" permission).
 
 ### B. Installing on your Wear OS Smartwatch
-1. **Direct APK Installation via ADB:**
-   * [Download the Wear OS APK](https://olabs.app/assets/release/bridge-x_wearos.apk). See the [latest GitHub Release](https://github.com/orienlabs/bridge_app/releases) to learn more.
-   * Transfer the APK to the watch and install it using ADB. See the [ADB installation guide](guides/install-via-adb.md).
-2. **Alternative File-Browser Installation:**
-   * Transfer the APK to the watch with the [File Browser app](https://play.google.com/store/apps/details?id=com.orienlabs.filebrowser.wear).
-   * Open the APK on the watch and follow the installation prompts, if the file-browser app supports APK installation.
+
+#### Option 1: Google Play Store (via Testers Group)
+1. Join the [bridge-x-testers Google Group](https://groups.google.com/g/bridge-x-testers) with the Google account active on your watch / phone.
+2. Once you have joined the group, open the [Bridge Wear OS testing link on Google Play](https://play.google.com/apps/testing/com.orienlabs.bridge.wear).
+3. Opt in to the testing program and install **Bridge** on your Wear OS watch directly from the Google Play Store.
+
+#### Option 2: Direct APK Installation via ADB
+* [Download the Wear OS APK](https://olabs.app/assets/release/bridge-x_wearos.apk). See the [latest GitHub Release](https://github.com/orienlabs/bridge_app/releases) to learn more.
+* Transfer the APK to the watch and install it using ADB. See the [ADB installation guide](guides/install-via-adb.md).
+
+#### Option 3: Alternative File-Browser Installation
+* Transfer the APK to the watch with the [File Browser app](https://play.google.com/store/apps/details?id=com.orienlabs.filebrowser.wear).
+* Open the APK on the watch and follow the installation prompts, if the file-browser app supports APK installation.
 
 ---
 
